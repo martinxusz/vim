@@ -1,0 +1,11 @@
+" This file will be loaded at the end of .vimrc.
+" This file is designed to add your own vim scripts or override the exVim's .vimrc settings.
+inoremap jj <ESC>
+
+"""""""""""""""""""""""""""""""""
+" map the shift-left to command Ctrl-W-Left
+" map the shift-right to command Ctrl-W-Right
+" nnoremap <S-LEFT> <C-W><LEFT>
+nnoremap [D <C-W><LEFT>
+nnoremap [C <C-W><RIGHT>
+"""""""""""""""""""""""""""""""""
