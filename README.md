@@ -1,5 +1,7 @@
 # vim
 
+## download this project content to home root dir (override existing .vim* will automatically enable exvim
+
 ## first time to create README.md file using command below
 echo "# vim" >> README.md
 git init
