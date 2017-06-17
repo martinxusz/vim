@@ -40,6 +40,7 @@ git push -u origin master
 > sh unix/replace-my-vim.sh
 
 If you are Windows user, you can run this batch script in command line window:
+> C:\exVim>call windows\replace-my-vim.bat
 
 The commands above will do three things:
 
