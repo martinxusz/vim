@@ -9,3 +9,30 @@ inoremap jj <ESC>
 nnoremap [D <C-W><LEFT>
 nnoremap [C <C-W><RIGHT>
 """""""""""""""""""""""""""""""""
+
+"""""""""""""""""""""""""""""""""
+" did this for python
+" vim python how to run current file
+" to access the current buffer's filename user %
+
+"set makeprg=python\ %
+" need to set commands above because already set in file
+" ~/.vim/bundle/ex-qfix/compiler/gulp.vim
+
+
+" auto save automatically before running the makeprg 
+set autowrite
+""""""""""""""""""""""""""""""""""
+" added on Fri 28 Apr 22:18:45 HKT 2017
+" Create a Shortcut to Mute Search Hightlighting
+nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
+" the above command simulate the Ctrl + l command in bash
+"""""""""""""""""""""""""""""""""
+
+" colorscheme monokai
+
+" https://stackoverflow.com/questions/327411/how-do-you-prefer-to-switch-between-buffers-in-vim
+" https://vi.stackexchange.com/questions/2129/fastest-way-to-switch-to-a-buffer-in-vim
+" How do you prefer to switch between buffers in Vim?
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
